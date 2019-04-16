@@ -2,11 +2,10 @@ from flask import Flask, render_template, request
 from chatterbot import ChatBot
 from chatterbot.trainers import ListTrainer
 import os
-bot = ChatBot('Friend') #create the bot
 
-bot.set_trainer(ListTrainer) # Teacher
-
-#bot.train(conv) # teacher train the bot
+bot = ChatBot('Friend', trainer='chatterbot.traines.ChatterBotCorpusTrainer') #create the bot
+treinador = ListTrainer(bot)
+treinador.train('chatterbot.corpus.portuguese')
 
 for knowledeg in os.listdir('base'):
 	BotMemory = open('base/'+ knowledeg, 'r').readlines()
