@@ -10,7 +10,7 @@ utilizar basta apenas fazer perguntas básicas sobre a grade horária do curso q
 nosso bot irá responder.</p>
 
 
-## Download do projeto:
+## Clone do projeto:
 
 git clone https://github.com/liragabriel/chatbot.git
 
