@@ -12,13 +12,16 @@ nosso bot irá responder.</p>
 
 ## Clone do projeto:
 
-  git clone https://github.com/liragabriel/chatbot.git
-
+'''
+git clone https://github.com/liragabriel/chatbot.git
+'''
 
 ## Instalar dependências:
 
+'''
   pip install flask
 
   pip install --user chatterbot
 
   pip install --user chatterbot--corpus
+ '''
