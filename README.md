@@ -19,9 +19,9 @@ git clone https://github.com/liragabriel/chatbot.git
 ## Instalar dependências:
 
 ```
-  pip install flask
+pip install flask
 
-  pip install --user chatterbot
+pip install --user chatterbot
 
-  pip install --user chatterbot--corpus
+pip install --user chatterbot--corpus
 ```
