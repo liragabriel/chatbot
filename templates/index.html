@@ -7,13 +7,16 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </head>
+    <style>
+        #titulo{text-align: center; font-weight: 900;}
+    </style>
     <body>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="jumbotron jumbotron-fluid">
-                        <h1 class="display-4">ChatBot da FAM</h1>
-                        <p class="lead">Precisa de ajuda sobre nossa grade horária?</p>
+                    <div class="jumbotron jumbotron-fluid rounded" style="margin-top: 60px">
+                        <h1 class="display-4" id="titulo">ChatBot da FAM</h1>
+                        <p class="lead" id="titulo">Precisa de ajuda sobre nossa grade horária?</p>
                     </div>
                 </div>
             </div>
@@ -27,7 +30,6 @@
                     </div>
                     <form action="/resposta" method="POST">
                         <div class="form-group">
-                            <label for="exampleInputEmail1">ChatBot da FAM</label>
                             <input type="text" name="user_input" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Pergunte aqui"><br>
                             <button type="submit" class="btn btn-primary">Enviar</button>
                         </div>
