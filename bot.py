@@ -1,3 +1,8 @@
+"""
+    Faculdade de Americana - Ciência da Computação
+                Gabriel Lira © 2019
+"""
+
 import os
 from flask import Flask, render_template, request
 from chatterbot import ChatBot
