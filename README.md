@@ -1,5 +1,8 @@
 # ChatBot da FAM
 
+[![](https://img.shields.io/badge/author-Gabriel-blue)](http://www.liragabriel.com)
+[![](https://img.shields.io/badge/license-MIT-green)](https://github.com/liragabriel/chatbot/blob/master/LICENSE)
+
 <p>Chatbot é um software que simula uma conversa humana e pode
 servir de auxílio em diversas áreas.</p>
 <p>O objetivo do ChatBot da FAM é oferecer aos alunos do curso de Ciência da
