@@ -28,9 +28,8 @@ nosso bot irá responder.</p>
 
 
 ## Author and License
----
 
-<p align="center">
+<p align="center" style="margin-top: 10%">
     <strong>
         <a href="http://www.liragabriel.com/mit-license">View License<a>
     </strong>
